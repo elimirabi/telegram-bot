@@ -12,8 +12,7 @@ id = "561634f290dd412988fe0762b2f2b8a3"
 directory = "./public"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
-run_worker_first = ["/api/*", "/telegram", "/pay/*", "/internal/*", "/service-pay/*", "/sub/*", "/sub-all/*", "/bots/*", "/cr-hook/*", "/cr-relay/*"]
-
+run_worker_first = ["/api/*", "/telegram", "/telegram/*", "/pay/*", "/internal/*", "/service-pay/*", "/sub/*", "/sub-all/*", "/bots/*"]
 [vars]
 APP_VERSION = "3.6.0"
 
